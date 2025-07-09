@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+ background-image: url('download\ \(1\).webp');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left:50px;
+}
+
+.college-logo {
+  width: 120px; 
+  height: auto;
+}
+
+
+
+form {
+  background: rgb(255, 255, 255);
+  padding: 27px;
+  border-radius: 30px;
+  width: 327px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}

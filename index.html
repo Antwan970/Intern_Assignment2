@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="logo-container">
+  <img src="OIP.webp" alt="College Logo" class="college-logo" />
+</div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Student Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   
+  <div class="container">
+    <h1>Registration Form</h1>
+
+    <form id="studentForm">
+      <label for="name">Name:</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required />
+      
+      <label for="age">Age:</label>
+      <input id="age" type="age" placeholder="Enter your age" required />
+
+      <label for="phone">Phone Number:</label>
+      <input id="phone" type="tel" placeholder="Enter your phone number" required />
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="Create a password" required />
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input id="confirmPassword" type="password" placeholder="Confirm your password" required />
+
+      <button type="submit">Submit</button>
+
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="dist/script.js"></script>
+</body>
+</html>
